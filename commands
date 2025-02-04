@@ -1,0 +1,10 @@
+Install
+
+curl -fsSL https://ollama.com/install.sh | sh
+ollama run deepseek-r1:7b
+
+Uninstall
+
+sudo rm -rf /usr/local/bin/ollama
+rm -rf ~/.ollama
+command -v ollama
